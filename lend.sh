@@ -1,5 +1,8 @@
 #
 # set environment variables for LEND
 
-export G4LENDDATA=/home/kmura/Library/mpexs/data/lend/v1.3/neutrons.map
-export ThermalScatteringDATA=/home/kmura/Library/mpexs/data/ts
+export G4DATA=/opt/geant4/data/neutron
+
+export G4LENDDATA=$G4DATA/lend/v1.3/neutrons.map
+export ThermalScatteringDATA=$G4DATA/ts
+
