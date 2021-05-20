@@ -2,7 +2,7 @@
 # set environment vars for data files
 #
 
-export G4DATA=/opt/geant4/data/10.7.0
+G4DATA=/opt/geant4/data/10.7.0
 
 export G4ABLADATA=$G4DATA/G4ABLA3.1
 export G4LEDATA=$G4DATA/G4EMLOW7.13
